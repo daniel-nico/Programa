@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("--- Año de Cursado ---");
+        Console.WriteLine("---Bloque 1: Año de Cursado ---");
 
             // Declaración de un entero
             int año = 2026;
