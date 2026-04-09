@@ -25,7 +25,28 @@ class Program
             Console.WriteLine("Constante NOMBRE_APP = " + NOMBRE_APP);
             Console.WriteLine("Constante VERSION = " + VERSION);
 
-            Console.ReadLine();
 
+            // Pi
+            const double PI = 3.14159;
+            Console.WriteLine("Constante PI = " + PI);
+
+            // Iva
+            const decimal IVA = 0.21m;
+            Console.WriteLine("Constante IVA = " + IVA);
+
+            // Dia de la semana
+            const string DIA_SEMANA = "Lunes";
+            Console.WriteLine("Constante DIA_SEMANA = " + DIA_SEMANA);
+
+            //Horas del año
+            const int HORAS_AÑO = 8760;
+            Console.WriteLine("Constante HORAS_AÑO = " + HORAS_AÑO);
+
+            // Maximo integrantes de un equipo
+            const int MAX_INTEGRANTES_EQUIPO = 5;
+            Console.WriteLine("Constante MAX_INTEGRANTES_EQUIPO = " + MAX_INTEGRANTES_EQUIPO);
+
+            Console.WriteLine("\nPresiona ENTER para cerrar.");
+            Console.ReadLine();
     }
 }
