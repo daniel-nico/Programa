@@ -26,7 +26,7 @@ class Program
             string numeroTelefono = Console.ReadLine();
 
             Console.WriteLine("\n--- INFORMACION DEL USUARIO ---");
-            Console.WriteLine($"Nombre: {nombre}");
+            Console.WriteLine("Nombre: " + nombre);
             Console.WriteLine($"Apellido: {apellido}");
             Console.WriteLine($"Edad: {edad}");
             Console.WriteLine($"Direccion: {direccion}");
